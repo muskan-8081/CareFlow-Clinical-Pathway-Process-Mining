@@ -27,3 +27,4 @@ To manually inspect and validate the healthcare event log dataset in LibreOffice
 - **Missing Case IDs:** 24 records lack a case ID (`case:concept:name`). These should not be arbitrarily assigned IDs to prevent mixing distinct patient journeys.
 - **Duplicate Records:** 14 rows share identical Case ID, Activity Name, and Timestamp combinations (representing 7 repeated event pairs). These need further review prior to event log processing.
 - **Data Integrity:** Primary activities (such as *Leucocytes*, *CRP*, *LacticAcid*, and *ER Triage*) are present without missing activity labels or timestamps.
+<!-- Status verified: Process mining pathway analysis successfully parsed -->
